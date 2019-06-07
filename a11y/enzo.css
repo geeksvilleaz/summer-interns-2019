@@ -1,0 +1,99 @@
+.skip {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+header {
+    margin-top: 30px;
+}
+
+a.skip:active, 
+a.skip:focus, 
+a.skip:hover {
+    left: 0; 
+    top: 0;
+    width: auto; 
+    height: auto; 
+    overflow: visible; 
+}
+
+.nav-1, .nav-2 {
+    display: flex;
+}
+
+.nav-1 ul, .nav-2 ul, .why-choice-group ul {
+    list-style: none;
+}
+
+.nav-1 ul li, .nav-2 ul li {
+    padding-right: 10px;
+}
+
+.nav-1 ul, .nav-2 ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-2 .perks {
+    display: flex;
+    margin-left: 70px;
+}
+
+.banner-con {
+    display: flex;
+}
+
+.credit-card-con {
+    margin-top: 150px;
+}
+
+.form-con .row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-con .row div {
+    margin-left: 10px;
+    
+}
+
+.scroll-down {
+    margin-top: 40px;
+}
+
+.brand-group, .type-group, .mobile-group, .why-choice-group, .content-links-group {
+    display: flex;
+}
+
+.brand-group section {
+    padding: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.mobile-platforms {
+    margin-top: 150px;
+}
+
+.whyChoice {
+    width: 40%;
+}
+
+.media-links-group ul, .media-links-group .vid-list {
+    list-style: none;
+    display: flex;
+}
+
+.media-links-group ul li {
+    margin-left: 15px;
+}
+
+
+
